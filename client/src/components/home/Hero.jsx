@@ -22,8 +22,8 @@ const Hero = () => {
         <div className="min-h-screen pb-20">
             {/* Navbar */}
             <nav className="z-50 flex items-center justify-between w-full py-4 px-6 md:px-16 lg:px-24 xl:px-40 text-sm">
-                <a href="https://prebuiltui.com">
-                    <img src="/logo.svg" alt="logo" className='h-11 w-auto' />
+                <a href="https://cvfy-frontend.vercel.app/">
+                    <img src="/logo1.svg" alt="logo" className='h-11 w-auto' />
                 </a>
 
                 <div className="hidden md:flex items-center gap-8 transition duration-500 text-slate-800">
@@ -69,7 +69,7 @@ const Hero = () => {
 
                 {/* Avatars + Stars */}
                 <div className="flex items-center mt-24">
-                    <div className="flex -space-x-3 pr-3">
+                    {/* <div className="flex -space-x-3 pr-3">
                         <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200" alt="user3" className="size-8 object-cover rounded-full border-2 border-white hover:-translate-y-0.5 transition z-[1]" />
                         <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200" alt="user1" className="size-8 object-cover rounded-full border-2 border-white hover:-translate-y-0.5 transition z-2" />
                         <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200" alt="user2" className="size-8 object-cover rounded-full border-2 border-white hover:-translate-y-0.5 transition z-[3]" />
@@ -83,10 +83,7 @@ const Hero = () => {
                                 <svg key={i} xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-star text-transparent fill-green-600" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
                             ))}
                         </div>
-                        <p className="text-sm text-gray-700">
-                            Used by 10,000+ users
-                        </p>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Headline + CTA */}
